@@ -1,7 +1,4 @@
-from time import time as t
-t1=t()
-
-with open('/Users/robin/input_day_4.txt','r') as file:
+with open('Input_day_4.txt','r') as file:
     input=file.read().split('\n')
 
 #part1
@@ -28,7 +25,4 @@ for val_a_l,val_a_h,val_b_l, val_b_h in zip(input_a_low,input_a_high,input_b_low
         count2+=1
     else:
         pass
-
 print(count2)
-t2=t()
-print(t2-t1)
