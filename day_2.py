@@ -1,4 +1,4 @@
-with open('/Users/robin/Input_day_2.txt', 'r') as file:
+with open('Input_day_2.txt', 'r') as file:
     string_list = file.read().split('\n')[:-1]
 print(string_list)
 dict = {
