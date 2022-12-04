@@ -1,7 +1,4 @@
-from time import time as t
-
-t1=t()
-with open('/Users/robin/input_day_3.txt', 'r') as file:
+with open('Input_day_3.txt', 'r') as file:
     string_list = file.read().split('\n')[:-1]
 dict = {
     'a' :  1 ,
@@ -84,6 +81,3 @@ for group in range(len(string_list)//3):
             pass
 print(prio)
 file.close()
-
-t2=t()
-print(t2-t1)
