@@ -1,4 +1,4 @@
-with open('/Users/robin/Input_day_5.txt','r') as file:
+with open('Input_day_5.txt','r') as file:
     start = file.read(323)
     instruct = file.read().split('\n')[2:]
 
