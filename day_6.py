@@ -5,8 +5,7 @@ with open('Input_day_6.txt', 'r') as file:
 z=4
 for i in range(len(datastream)-3):
     a=set(datastream[i:i+z])
-    b=datastream[i:i+z]
-    if len(a)==len(b):
+    if len(a)==z:
         print(i+z)
         break
 
@@ -14,7 +13,6 @@ for i in range(len(datastream)-3):
 z=14
 for i in range(len(datastream)-3):
     a=set(datastream[i:i+z])
-    b=datastream[i:i+z]
-    if len(a)==len(b):
+    if len(a)==z:
         print(i+z)
         break
