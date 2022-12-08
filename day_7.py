@@ -1,6 +1,3 @@
-from time import time as t
-t1=t()
-
 with open('/Users/robin/Input_day_7.txt','r') as file:
     string_list = file.read().replace('\n$ ls','').split('\n$ cd ')
 
@@ -78,6 +75,3 @@ for i,val in enumerate(directors):
     if val.total_size-total_space_needed>=0:
         free_space.append(val.total_size)
 print(min(free_space))
-t2=t()
-print(t2-t1)
-
