@@ -39,7 +39,7 @@ def update_all_pos_log(rope2):
 
 def code_for_different_lengths(length):
     rope = [node() for _ in range(int(length))]
-    with open('/Users/robin/Input_day_9.txt', 'r') as instructions:
+    with open('Input_day_9.txt', 'r') as instructions:
         for movement in instructions:
             direction, distance = movement.rstrip().split()
             for _ in range(int(distance)):
