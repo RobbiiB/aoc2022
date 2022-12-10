@@ -1,5 +1,5 @@
 import numpy as np
-with open('/Users/robin/Input_day_8.txt','r') as file:
+with open('Input_day_8.txt','r') as file:
     string = file.read().split('\n')
 trees_str = []
 for val in string:
